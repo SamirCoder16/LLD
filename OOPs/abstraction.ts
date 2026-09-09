@@ -1,6 +1,10 @@
 // Abstraction .
-// Abstraction hides unnecessary details/data from client. and  showcase only what is necessary to client.
+// ->Abstraction is an OOP principle of hiding unnecessary implementation details and exposing only the essential behavior or interface to the client.
+// It helps reduce complexity and allows the client to focus on what an object does rather than how it does it.
+
 // Example -> Car and Owner .
+// A car has a driver (owner) who interacts with the car.
+// The driver doesn't need to know the internal details of how the car works, just how to use it.
 
 // create a class that is abstract and has some abstract methods and some normal methods.
 // An abstract is a class that cannot be instantiated directly. It can only be extended by other classes.
